@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/background.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 7%;
+}
+
+.logo {
+    color: #fff;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav_links li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+}
+
+.nav_links li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.register-btn {
+    background: #fff;
+    color: #000;
+    padding: 8px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.container {
+    padding: 0 7%;
+}
+
+.container-btn {
+    text-align: center;
+}
+
+.container-btn h1 {
+    margin-top: -100px;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.start-btn {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    background: #e9311a;
+    border: #e9311a;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+button:hover {
+    background: #f03f28;
+}
+
+.header h1 {
+    font-size: 4w;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    padding-top: 22%;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+
+.column_right {
+    flex: 50%;
+}
+
+.philosophy_window {
+    height: 400px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.content {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
+.about_msg {
+    text-align: center;
+    margin: 80px 0;
+    color: #333;
+    font-size: 17px;
+}
+
+.container h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+
+
+/*footer*/
+.footer {
+    margin: 80px 0 10px;
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #064c72;
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+.footer hr {
+    background: rgb(225, 225, 225);
+    height: 1px;
+    width: 100%;
+    border: 0;
+    margin: 20px 0;
+}
+
+.footer p {
+    padding-bottom: 15px;
+}
+
+.column {
+    margin-top: -70px;
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+.column2 {
+    margin-top: -70px;
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+.column2 img {
+    margin-top: 70px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.column h2 {
+    font-size: 23px;
+    font-style: italic;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.product_info {
+    background-color: rgba(77, 74, 71, 0.16);
+    text-align: center;
+    margin-top: -5px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.checking-form {
+    margin: 30px 0;
+    background: #fff;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.checking-form label {
+    display: block;
+}
+
+.checking-form div {
+    padding: 20px;
+}
+
+.checking-form input {
+    background: transparent;
+    border: 0;
+    outline: none;
+}
+
+.checking-form button {
+    background: #064c72;
+    border: 0;
+    outline: none;
+    color: #fff;
+    padding: 18px;
+    width: 200px;
+    border-radius: 16px;
+    font-size: 16px;
+}
+
+.product_field {
+    flex: 1;
+}
+
+.window_img {
+    width: 45%;
+    float: right;
+    margin: 0 7px 7px 50px;
+}
+
+.philosophy_text{
+    margin-top: 100px;
+    margin-bottom: 180px;
+    line-height: 1.5;
+}

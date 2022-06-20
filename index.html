@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LesFenêtres - Smart windows for smart houses</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.ico">
+    <script src="https://kit.fontawesome.com/3622df04d1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header">
+        <nav id="navBar">
+            <h2 class="logo"><a href="index.html">LesFenêtres</a></h2>
+            <ul class="nav_links">
+                <li>
+                    <a href="#s1">Our Philosophy</a>
+                </li>
+                <li>
+                    <a href="#s2">Why Us</a>
+                </li>
+                <li>
+                    <a href="#s3">Catalog</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="container-btn">
+            <h1>Click below to know more about us</h1>
+            <button class="start-btn" type="button" onclick="window.location.href='#s1'">START</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 id="s1">Our philosophy</h2>
+        <img class="window_img" src="images/window1.jpg">
+        <div class="philosophy_text">
+            <p>LesFenêtres is a brand, created to fill your home with comfort and light. Our happiest moments are when
+                we see our clients smiling. It is proved that beautiful house makes people wanting go home more and
+                more.
+                <br><br>
+                Here, in LesFenêtres, we care about our clients the same way as mother cares about her child. Our
+                products are made of material that meets all international
+                standarts in window industry. Also, we use only reusable material so you can care about ecology and do
+                not pollute our planet.
+                <br><br>
+                Choose the best for yourself and our planet - choose LesFenêtres!
+                <br>
+            </p>
+        </div>
+        <h2 id="s2">Why us?</h2>
+        <div class="row">
+            <div class="column">
+                <h2>Ecology</h2>
+                <p>LesFenêtres is fully ecological brand. We use <b>only</b> reusable material, which meet all the
+                    international
+                    standarts in window industry.<br>Don't throw away your windows, when you want to change them to new
+                    ones, just hand them over to recycling in our company. </p>
+            </div>
+            <div class="column">
+                <h2>Affordable price</h2>
+                <p>We in LesFenêtres know, that our windows are best of the best in the whole world!<br>
+                    We want all people
+                    on the Earth know about us and our windows, so we keep affordable prices, that everubody could buy
+                    our products and enjoy them. </p>
+            </div>
+            <div class="column">
+                <h2>Quality</h2>
+                <p>We are interested in offering windows with the best quality. Our company believes that 1 happy client
+                    brings 10 more new clients.<br>So we will do everything possible to make you satisfyed and happy
+                    with our serviced.
+                </p>
+            </div>
+        </div>
+
+        <h2 id="s3">Our catalog</h2>
+        <div class="catalog_container">
+            <div class="row">
+                <div class="column2">
+                    <img src="images/vikonna_ruchka.jpg">
+                    <div class="product_info">
+                        <p><b>Sash Lock</b><br>1200₴</p>
+                    </div>
+                </div>
+                <div class="column2">
+                    <img src="images/sill.jpg">
+                    <div class="product_info">
+                        <p><b>Sill Dark</b><br>2700₴</p>
+                    </div>
+                </div>
+                <div class="column2">
+                    <img src="images/sill_light.jpg">
+                    <div class="product_info">
+                        <p><b>Sill Light</b><br>2700₴</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column2">
+                    <img src="images/glass_pane.jpg">
+                    <div class="product_info">
+                        <p><b>Double Glazing Glass</b><br>9800₴</p>
+                    </div>
+                </div>
+                <div class="column2">
+                    <img src="images/3_glass_pane.jpg">
+                    <div class="product_info">
+                        <p><b>Thrice Glazing Glass</b><br>13700₴</p>
+                    </div>
+                </div>
+                <div class="column2">
+                    <img src="images/cleaner.jpg">
+                    <div class="product_info">
+                        <p><b>Window Cleaner</b><br>350₴</p>
+                    </div>
+                </div>
+            </div>
+
+            <form method="POST" action="https://formspree.io/f/mwkyjkze" class="checking-form">
+                <div>
+                    <label>Name</label>
+                    <input name="name" type="text" placeholder="Add name" required>
+                </div>
+                <div>
+                    <label>Phone number</label>
+                    <input name="phonenumber" type="tel" pattern="[+]{1}[0-9]{11,14}" placeholder="+380000000000"
+                        required>
+                </div>
+                <div class="product_field">
+                    <label>Product</label>
+                    <select name="product">
+                        <option value="SashLock">Sash Lock</option>
+                        <option value="SillDark">Sill Dark</option>
+                        <option value="SillLight">Sill Light</option>
+                        <option value="DoubleGlazingGlass">Double Glazing Glass</option>
+                        <option value="ThriceGlazingGlass">Thrice Glazing Glass</option>
+                        <option value="WindowCleaner">Window Cleaner</option>
+                    </select>
+                </div>
+                <button type="submit">Order Now</button>
+            </form>
+        </div>
+
+        <div class="footer">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+            <hr>
+            <p> Copyright Ⓒ 2022, Lviv Polytechnic University</p>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
